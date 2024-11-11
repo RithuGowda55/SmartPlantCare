@@ -1,0 +1,18 @@
+.vscode
+.pycharm
+__pycache__
+.idea
+.ipynb_checkpoints
+models.config
+planDisease
+
+# Ignore TensorFlow and other large files
+api/myenv/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd
+api/myenv/Lib/site-packages/clang/native/libclang.dll
+
+# Ignore all files in the myenv directory (if you want to ignore the entire environment)
+api/myenv/
+
+# Ignore other large files (if needed)
+*.pyd
+*.dll
